@@ -15,14 +15,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@tanstack/query-sync-storage-persister": "^5.58.0",
     "@tanstack/react-query": "^5.58.0",
     "@tanstack/react-query-persist-client": "^5.58.0",
     "@tanstack/react-virtual": "^3.10.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
-    "zustand": "^5.0.1",
-    "@tanstack/query-sync-storage-persister": "^5.58.0"
+    "use-sui-passkey": "^1.0.5",
+    "zustand": "^5.0.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.0",

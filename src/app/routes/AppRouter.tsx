@@ -9,10 +9,10 @@ import { AppShell } from '@shared/ui/AppShell';
 export function AppRouter() {
   return (
     <Routes>
-      <Route path="/onboarding" element={<OnboardingPage />} />
+      <Route path="/" element={<OnboardingPage />} />
       <Route path="/unsupported-passkey" element={<PasskeyUnsupportedPage />} />
       <Route
-        path="/"
+        path="/chats"
         element={
           <AppShell>
             <ConversationsPage />
