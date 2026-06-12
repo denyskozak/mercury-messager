@@ -1,6 +1,13 @@
 # Mercury Messager
 
-Privacy-first pseudonymous messenger frontend scaffold.
+Next-gen serverless messager built on blockchain privacy 
+
+Problem:
+When you message through modern messager (WhatsUp, Telegram, Signal) you rely on their servers for send encrypted text
+Anyway you experience leak location, message frequancy, identity
+
+Solution:
+Mercury messager rely on blockchain cryptography and decetralized nodes for establish and exchange messages
 
 ## Run
 
